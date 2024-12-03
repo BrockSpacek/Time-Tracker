@@ -25,7 +25,7 @@ body{
     grid-column: 1;
     grid-row: 1 / span 2;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
@@ -33,19 +33,20 @@ body{
     grid-column: 2;
     grid-row: 1;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
 .work-icon{
     background-color: hsl(15, 100%, 70%);
+    
 }
 
 .playSection{
     grid-column: 3;
     grid-row: 1;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
@@ -57,7 +58,7 @@ body{
     grid-column: 4;
     grid-row: 1;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
@@ -69,7 +70,7 @@ body{
     grid-column: 2;
     grid-row: 2;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
@@ -81,7 +82,7 @@ body{
     grid-column: 3;
     grid-row: 2;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
@@ -93,10 +94,14 @@ body{
     grid-column: 4;
     grid-row: 2;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 1.2rem;
+    border-radius: 0.9rem;
     color: white;
 }
 
 .selfcare-icon{
     background-color: hsl(43, 84%, 65%);
+}
+
+.border-radius{
+    border-radius: 1rem;
 }
