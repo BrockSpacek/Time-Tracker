@@ -1,3 +1,19 @@
+@font-face {
+    font-family: Rubik;
+    src: url('https://fonts.google.com/specimen/Rubik');
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    font-family: Rubik, sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    /* Credit to mike for the min height */
+}
+
+
+
 .main-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -8,7 +24,7 @@
 .nameSection{
     grid-column: 1;
     grid-row: 1 / span 2;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
 }
@@ -16,47 +32,71 @@
 .workSection{
     grid-column: 2;
     grid-row: 1;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
+}
+
+.work-icon{
+    background-color: hsl(15, 100%, 70%);
 }
 
 .playSection{
     grid-column: 3;
     grid-row: 1;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
+}
+
+.play-icon{
+   background-color:  hsl(195, 74%, 62%);
 }
 
 .studySection{
     grid-column: 4;
     grid-row: 1;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
+}
+
+.study-icon{
+    background-color: hsl(348, 100%, 68%);
 }
 
 .exerciseSection{
     grid-column: 2;
     grid-row: 2;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
+}
+
+.exercise-icon{
+    background-color: hsl(145, 58%, 55%);
 }
 
 .socialSection{
     grid-column: 3;
     grid-row: 2;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
+}
+
+.social-icon{
+    background-color: hsl(264, 64%, 52%);
 }
 
 .selfCareSection{
     grid-column: 4;
     grid-row: 2;
-    background-color: #171a3f;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.2rem;
     color: white;
+}
+
+.selfcare-icon{
+    background-color: hsl(43, 84%, 65%);
 }
