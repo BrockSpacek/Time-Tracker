@@ -39,7 +39,7 @@ body{
 
 .work-icon{
     background-color: hsl(15, 100%, 70%);
-    
+    height: 75px;
 }
 
 .playSection{
@@ -52,6 +52,7 @@ body{
 
 .play-icon{
    background-color:  hsl(195, 74%, 62%);
+   height: 75px;
 }
 
 .studySection{
@@ -64,6 +65,7 @@ body{
 
 .study-icon{
     background-color: hsl(348, 100%, 68%);
+    height: 75px;
 }
 
 .exerciseSection{
@@ -76,6 +78,7 @@ body{
 
 .exercise-icon{
     background-color: hsl(145, 58%, 55%);
+    height: 75px;
 }
 
 .socialSection{
@@ -88,6 +91,7 @@ body{
 
 .social-icon{
     background-color: hsl(264, 64%, 52%);
+    height: 75px;
 }
 
 .selfCareSection{
@@ -100,8 +104,13 @@ body{
 
 .selfcare-icon{
     background-color: hsl(43, 84%, 65%);
+    height: 75px;
 }
 
 .border-radius{
     border-radius: 1rem;
+}
+
+.negative-margin{
+    margin-top: -0.5rem;
 }
