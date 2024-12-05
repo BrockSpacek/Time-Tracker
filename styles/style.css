@@ -13,12 +13,34 @@ body{
 }
 
 
+.profile-picture{
+    width: 30%;
+    height: 30%;
+    border: white 3px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
 
+.profile-text{
+    font-size: 40px;
+
+    margin-left: 30px;
+}
+
+.button-margin{
+    margin-left: 30px;
+}
+
+.report-margin{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 16px;
+}
 .main-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 1rem;
+    gap: 1.75rem;
 }
 
 .nameSection{
