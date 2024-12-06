@@ -174,3 +174,15 @@ body{
     border-radius: 1rem;
 }
 
+.dots {
+    background-color: transparent;
+    border: none;
+    font-size: 28px;
+    letter-spacing: -2.5px;
+    color: hsl(236, 100%, 87%);
+}
+
+.dots-margin{
+    margin-left: 125px;
+}
+
